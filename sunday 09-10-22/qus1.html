@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+    box-sizing: border-box;
+        }
+body{
+    background-color: whitesmoke;
+    
+}
+.div-1{
+    background-color: white;
+    border: solid white;
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+
+}
+form{
+    position: relative;
+}
+    
+.btn-one{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: blue;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="div-1">
+    <form>
+    <label>Text Field</label><br>
+    <input type="text" placeholder="input text" required=""><br><br>
+    
+    <label>select Field</label><br>
+  
+    <input type="text" placeholder="select" required="*">
+    <select>
+        <option></option>
+        <!-- <option>Bunny</option>
+        <option>chandu</option>
+        <option>sai</option> -->
+    </select><br><br>
+    <label>Text area</label><br>
+<textarea id="text-area" name="text-area" rows="4" cols="20"></textarea><br><br>
+<label>Text Field with add-on</label><br>
+    <input type="text" placeholder="label input text" required="*">
+    <button>button</button><br><br>
+
+
+    <div class="btn-one">
+        <input type="text" placeholder="search" required="" class=""><br><br>
+        <button>- 1 +</button><br><br>
+    <input type="checkbox" id="checkbox" name="checkbox" value="box">
+    
+<label>Checkbox</label><br><br>
+<input type="radio" id="radio" name="radio" value="radio">
+<label>Radio Button</label><br><br>
+</div>
+
+</form>
+</div>
+</body>
+</html>
